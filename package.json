@@ -1,0 +1,11 @@
+{
+  "name": "node.js-rest-server",
+  "version": "1.0.0",
+  "description": "node.js, json, server rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evgeniy Akulich",
+  "license": "ISC"
+}
