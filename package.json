@@ -10,8 +10,10 @@
   "author": "Evgeniy Akulich",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
