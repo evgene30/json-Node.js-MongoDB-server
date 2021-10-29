@@ -27,7 +27,7 @@ app.post('/post', urlencodedParser, (req, res) => {
 
 });
 
-app.post('/del', urlencodedParser, (req, res) => {
+app.delete('/del', urlencodedParser, (req, res) => {
     if (!req.body) return res.sendStatus(400);
     methodsDB.deleteUser(req.body);
     res.send('Your DELETE!');
