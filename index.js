@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 app.get('/api', (req, res) => {
     client.connect(async (err) => {
         try {
-            res.send(await collection.find({}).toJSON());
+            res.send(await collection.find({}).toArray());
             await client.close();
         } catch (err) {
             console.log(err);
